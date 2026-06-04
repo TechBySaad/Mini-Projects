@@ -11,9 +11,11 @@ public class StudentDriver {
         Student s1 = new Student("Doraemon", 101,96 );
         Student s2 = new Student("Bheem", 102, 90);
 
-        ArrayList<Student> studentsArrayList = new ArrayList<>();
-        studentsArrayList.add(s1);
-        studentsArrayList.add(s2);
+
+
+        ArrayList<Student> students = new ArrayList<>();
+        students.add(s1);
+        students.add(s2);
 
 
 

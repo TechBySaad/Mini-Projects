@@ -12,10 +12,19 @@ public class Student {
 
     }
 
-
     public void displayDetails(){
         System.out.println("Name: "+ name);
         System.out.println("University Seat Number: " + usn);
         System.out.println("Marks: "+ marks);
+    }
+
+    public String getName(){
+        return name;
+    }
+    public int getUsn(){
+      return usn;
+    }
+    public int getMarks(){
+      return marks;
     }
 }
