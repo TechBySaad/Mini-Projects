@@ -27,4 +27,16 @@ public class Student {
     public int getMarks(){
       return marks;
     }
+
+    public void setName(String name){
+      this.name = name;
+    }
+
+    public void setUsn(int usn){
+        this.usn = usn;
+    }
+
+    public void setMarks(int marks){
+        this.marks = marks;
+    }
 }
